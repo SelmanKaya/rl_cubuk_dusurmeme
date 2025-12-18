@@ -56,18 +56,3 @@ python main.py
 Eğitim tamamlandıktan sonra otomatik olarak `render_mode="human"` açılacak ve ajanın çubuğu nasıl dengelediğini izleyebileceksiniz.
 
 ---
-
-### Projeyi Push Etmek İçin Hatırlatma
-
-`.venv` klasörünü daha önce temizlediğimiz için artık güvenle şu komutları kullanabilirsin:
-
-```bash
-git add .
-git commit -m "feat: add cartpole dqn solver and readme"
-git push origin main
-
-```
-
----
-
-Bu README dosyasına eklememi istediğin özel bir başlık veya görsel var mı? Eğer istersen eğitimden sonra oluşan grafiği de bu dosyaya gömecek şekilde güncelleyebiliriz.
