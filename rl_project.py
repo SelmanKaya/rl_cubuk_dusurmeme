@@ -91,6 +91,8 @@ def optimize_model():
     loss.backward()
     torch.nn.utils.clip_grad_value_(policy_net.parameters(), 100)
     optimizer.step()
+    
+
 
 # 5. EĞİTİM DÖNGÜSÜ
 num_episodes = 600
